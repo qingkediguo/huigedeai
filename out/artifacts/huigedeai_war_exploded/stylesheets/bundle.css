@@ -1,0 +1,244 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  font-size: 16em;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  background: #fff0e5;
+}
+.wrap-body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.wrap-turntable .gb-turntable {
+  margin: 1em auto;
+  border-color: #e91e63;
+}
+.wrap-turntable .gb-turntable-container {
+  background: #f8bbd0;
+}
+.wrap-turntable .gb-turntable-btn {
+  background: #e91e63;
+}
+.wrap-turntable .gb-turntable-btn:after {
+  border-bottom-color: #e91e63;
+}
+.wrap-turntable .gb-turntable-item span {
+  color: #e91e63;
+}
+.wrap-scroller {
+  position: relative;
+  margin-bottom: 2em;
+}
+.wrap-scroller .group {
+  margin: 1em auto;
+  height: 6em;
+  width: 20em;
+  border: 0.5em solid #e91e63;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 3px #333, 0 0 2px #000;
+  box-shadow: 0 2px 3px #333, 0 0 2px #000;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+  border-radius: 3.5em;
+}
+.wrap-scroller .group .item {
+  float: left;
+  width: 2.5em;
+  background: #f8bbd0;
+}
+.wrap-scroller .group .item .num {
+  float: left;
+  height: 6em;
+  width: 2.5em;
+  line-height: 6em;
+  text-align: center;
+}
+.wrap-scroller .group .item .num span {
+  font-size: 2em;
+  color: #e91e63;
+}
+.wrap-scroller .catch-people {
+  position: absolute;
+  left: calc(50% - 5em);
+  bottom: -1.25em;
+  width: 10em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  color: #fff;
+  border-radius: 1.5em;
+  background: #e91e63;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+.wrap-xbg {
+  position: relative;
+  margin: -1em 0;
+  text-align: center;
+  height: 12em;
+}
+.wrap-xbg img {
+  z-index: 4;
+  position: absolute;
+  height: 12em;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.wrap-xbg .text {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  top: 2em;
+  text-align: center;
+  color: #9c27b0;
+  line-height: 2em;
+  text-shadow: 0px 0px 5px #e91e63;
+  font-size: 1.25em;
+}
+.wrap-xbg .text .main {
+  font-size: 2em;
+  -webkit-transform: rotateZ(5deg);
+  -moz-transform: rotateZ(5deg);
+  -o-transform: rotateZ(5deg);
+  -ms-transform: rotateZ(5deg);
+  transform: rotateZ(5deg);
+}
+.wrap-xbg .text .sub {
+  color: #e91e63;
+  font-size: 1.2em;
+}
+.wrap-xbg .text .version {
+  color: #e91e63;
+  text-shadow: 0 0 1px #fafafa;
+}
+.wrap-xlist ul#lister {
+  position: relative;
+  padding: 1em 0;
+  margin: 0 auto;
+  width: 20em;
+  border: 0.5em solid #e91e63;
+  border-bottom: 0;
+  -webkit-box-shadow: 0 2px 3px #333, 0 0 2px #000;
+  box-shadow: 0 2px 3px #333, 0 0 2px #000;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+  border-radius: 3.5em 3.5em 0 0;
+  background: #f8bbd0;
+  overflow: hidden;
+}
+.wrap-xlist ul#lister li {
+  color: #e91e63;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+  padding: 0 1em;
+  height: 2em;
+  line-height: 2em;
+}
+.wrap-xlist ul#lister .sim {
+  background: #f48fb1;
+}
+.wrap-xlist ul#lister .id,
+.wrap-xlist ul#lister .name {
+  float: left;
+}
+.wrap-xlist ul#lister .id {
+  width: 6em;
+  font-size: 0.5em;
+}
+.wrap-xlist ul#lister .count,
+.wrap-xlist ul#lister .times {
+  width: 5em;
+  text-align: center;
+  float: right;
+}

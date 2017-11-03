@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="jquery@3.2.1/dist/jquery.min.js"></script>
+</head>
+<body>
+Test
+</body>
+<script>
+    $(function () {
+        $.ajax({
+            type: "GET",
+            dataType: "json",
+            url: "PersonServlet?action=all",
+            success: function (data) {
+//                console.log(data.all[0].users[3]);
+                console.log(data);
+            },
+            error: function () {
+                console.log("error")
+            }
+        })
+    })
+</script>
+</html>
